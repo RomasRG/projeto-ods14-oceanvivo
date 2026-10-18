@@ -90,7 +90,7 @@ Nenhum framework foi utilizado.
 | Nome | Currículo |
 |------|-----------|
 | Gustavo Seiji Tanaka | [Currículo](curriculos/cv_tnk/index.html) |
-| Integrante 2 | [Currículo](curriculos/PASTA-INTEGRANTE-2/index.html) |
+| Gabriel Sasaki Roncaglia | [Currículo](curriculos/cv_GabrielSasaki/index.html) |
 | Integrante 3 | [Currículo](curriculos/PASTA-INTEGRANTE-3/index.html) |
 
 ---
