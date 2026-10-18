@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="style.css">
+    <title>ODS 14 - Cadastrar</title>
+</head>
+<body>
+
+    <header>
+        <h1>🌊 ODS 14 — Vida na Água</h1>
+        <span>
+            <i class="material-icons-outlined icone">eco</i>
+            OceanVivo
+        </span>
+    </header>
+
+    <nav>
+        <a href="index.html">Página Principal</a>
+        <a href="login.html">Entrar</a>
+    </nav>
+
+    <main class="cadastro-box">
+        <div class="cadastro-titulo">
+            <h2 id="titulo-projeto">Crie sua conta</h2>
+            <span class="subtitulo">Preencha os dados para participar do projeto</span>
+        </div>
+
+        <section class="secao" id="cadastro">
+            <h2>
+                <i class="material-icons-outlined icone-titulo">person_add</i>
+                Cadastro
+            </h2>
+            <form action="login.html" method="get">
+                <div class="campo">
+                    <label for="cad-nome">Nome completo</label>
+                    <input type="text" id="cad-nome" name="nome" placeholder="Seu nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="cad-email">E-mail</label>
+                    <input type="email" id="cad-email" name="email" placeholder="Insira um e-mail válido" required>
+                </div>
+
+                <div class="campo">
+                    <label for="cad-estado">Estado</label>
+                    <select id="cad-estado" name="estado" required>
+                        <option value="">Selecione...</option>
+                        <option value="PR">Paraná</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="cad-interesse">Área de interesse</label>
+                    <select id="cad-interesse" name="interesse">
+                        <option value="corais">Preservação de corais</option>
+                        <option value="plastico">Combate ao plástico</option>
+                        <option value="pesca" selected>Pesca sustentável</option>
+                        <option value="educacao">Educação ambiental</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="cad-opiniao">Deixe a sua opinião sobre o projeto</label>
+                    <textarea id="cad-opiniao" name="opiniao" rows="4" placeholder="Escreva aqui..."></textarea>
+                </div>
+
+                <div class="campo">
+                    <label for="cad-senha">Senha</label>
+                    <input type="password" id="cad-senha" name="senha" placeholder="Crie uma senha" required>
+                </div>
+
+                <input type="submit" class="botao" value="Criar conta">
+            </form>
+
+            <p class="texto-ajuda">Já tem uma conta?</p>
+            <a class="botao botao-secundario" href="login.html">Voltar para o login</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>OceanVivo — Programação Web Front-End (2026_02) — UTFPR Cornélio Procópio</p>
+        <p>
+            <strong>Currículos:</strong>
+            <a href="#" target="_blank">📄 Integrante 1</a>
+            <a href="#" target="_blank">📄 Integrante 2</a>
+            <a href="#" target="_blank">📄 Integrante 3</a>
+        </p>
+    </footer>
+
+</body>
+</html>
